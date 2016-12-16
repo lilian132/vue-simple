@@ -46,7 +46,7 @@ export default {
     }
   },
   mounted(){
-    var index = this.$store.homeNavIndex.getters.getIndex;
+    var index = this.$store.getters.getIndex;
     if(index){
       this.selected = index;
     }
@@ -54,7 +54,8 @@ export default {
   watch: {
     selected:function(val, oldVal){
       //将索引变化值记录到store
-      this.$store.homeNavIndex.dispatch('setIndex', this.selected);
+      //this.$store.state.homeNavIndex.index = this.selected;
+      this.$store.dispatch('setIndex', this.selected);
     }
   },
   components: { 

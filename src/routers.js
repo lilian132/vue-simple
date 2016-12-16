@@ -17,11 +17,7 @@ const routers = [{
     path: '/',
     name: 'home',
     component: Home
-}, {
-    path: '/cnodevue',
-    name: 'cnodevue',
-    component: Home
-}, {
+},  {
     path: '/gift',
     name: 'gift',
     //component: Gift

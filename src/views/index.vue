@@ -1,6 +1,5 @@
 <template>
     <div id="index">
-      <!-- <app-header></app-header> -->
       <swipe></swipe>      
       <tapNav></tapNav>      
     </div>
@@ -13,12 +12,8 @@ import tapNav from '../components/tapNav-home'
 export default {
   name: 'app',
   data () {
-    return {
-      msg: 'bbbb'
+    return {      
     }
-  },
-  mounted(){
-    // console.log($);
   },
   components: { swipe,tapNav }
 }

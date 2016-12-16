@@ -19,9 +19,6 @@ export default {
     return {
       msg: 'bbbb'
     }
-  },
-  mounted(){
-    // console.log($);
   }
 }
 </script>

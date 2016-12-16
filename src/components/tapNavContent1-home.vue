@@ -27,8 +27,6 @@ export default {
       return {
         list: [],
         loading: false,
-        allLoaded: false,
-        wrapperHeight: 0,
         page:1
       };
     },
